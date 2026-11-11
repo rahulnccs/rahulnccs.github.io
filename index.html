@@ -1,0 +1,1913 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Publications — Rahul Bodkhe, PhD</title>
+  <meta property="og:site_name" content="Rahul Bodkhe, PhD" />
+  <meta property="og:title" content="Publications — Rahul Bodkhe, PhD" />
+  <meta property="og:type" content="website" />
+  <meta name="description" content="Academic portfolio and peer-reviewed publications of Rahul Bodkhe, PhD — Microbiome Scientist & Evolutionary Ecologist at UCSF / NCIRE." />
+
+  <!-- Google Fonts: Poppins (matching Squarespace cymbals-cyan template) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ==========================================================================
+       SQUARESPACE 7.1 FLUID ENGINE PALETTE & TYPOGRAPHY TOKENS
+       Mirrors https://www.ginapartipilo.com/publications-1
+       ========================================================================== */
+    :root {
+      --white-hsl: 0, 0%, 100%;
+      --black-hsl: 0, 0%, 0%;
+      --accent-hsl: 42.86, 3.87%, 64.51%;       /* #a8a59e warm stone/taupe */
+      --lightAccent-hsl: 0, 0%, 96.86%;         /* #f7f7f7 soft alabaster */
+      --darkAccent-hsl: 240, 2.61%, 22.55%;     /* #38383b deep slate charcoal */
+
+      --sqsp-white: hsla(var(--white-hsl), 1);
+      --sqsp-black: hsla(var(--black-hsl), 1);
+      --sqsp-accent: hsla(var(--accent-hsl), 1);
+      --sqsp-light: hsla(var(--lightAccent-hsl), 1);
+      --sqsp-dark: hsla(var(--darkAccent-hsl), 1);
+
+      --heading-font: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+      --body-font: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+      --base-font-size: 16px;
+      --sqs-site-max-width: 1500px;
+      --sqs-site-gutter: 4vw;
+      --sqs-mobile-site-gutter: 6vw;
+      --divider-height: 6vw;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: var(--base-font-size);
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: var(--body-font);
+      font-weight: 300;
+      line-height: 1.8em;
+      color: var(--sqsp-black);
+      background-color: var(--sqsp-white);
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: opacity 0.2s ease, color 0.2s ease;
+    }
+
+    a:hover {
+      opacity: 0.72;
+    }
+
+    strong, b {
+      font-weight: 600;
+    }
+
+    em, i {
+      font-style: italic;
+    }
+
+    /* ==========================================================================
+       HEADER (Black Theme / Transparent over Hero Section)
+       ========================================================================== */
+    .site-header {
+      position: relative;
+      z-index: 100;
+      background-color: #000000;
+      color: #ffffff;
+      padding: 2vw var(--sqs-site-gutter);
+      width: 100%;
+      transition: background-color 0.3s ease;
+    }
+
+    .header-inner {
+      max-width: var(--sqs-site-max-width);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+
+    .site-title {
+      font-family: var(--heading-font);
+      font-weight: 500;
+      font-size: clamp(1.35rem, 2vw, 1.75rem);
+      letter-spacing: 0em;
+      color: #ffffff;
+      text-decoration: none;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center 18%;
+      border: 1.5px solid rgba(255, 255, 255, 0.75);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    }
+
+    .site-title:hover {
+      opacity: 0.9;
+    }
+
+    .header-nav-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 2.2rem;
+    }
+
+    .header-nav-list {
+      display: flex;
+      align-items: center;
+      gap: 1.85rem;
+      list-style: none;
+    }
+
+    .header-nav-item {
+      position: relative;
+    }
+
+    .header-nav-link,
+    .header-nav-folder-title {
+      font-family: var(--body-font);
+      font-weight: 300;
+      font-size: 0.98rem;
+      color: #ffffff;
+      text-decoration: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.25rem 0;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      position: relative;
+      white-space: nowrap;
+    }
+
+    .header-nav-link.active::after,
+    .header-nav-folder-title.active::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -2px;
+      height: 1px;
+      background-color: #ffffff;
+    }
+
+    .header-nav-folder-title svg {
+      width: 10px;
+      height: 10px;
+      transition: transform 0.2s ease;
+    }
+
+    .header-nav-item.folder:hover .header-nav-folder-title svg {
+      transform: rotate(180deg);
+    }
+
+    /* Dropdown folder menu */
+    .header-nav-folder-content {
+      position: absolute;
+      top: 100%;
+      left: -0.75rem;
+      background-color: #141416;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 0.65rem 1.1rem;
+      min-width: 185px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(6px);
+      transition: all 0.2s ease;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+      z-index: 200;
+    }
+
+    .header-nav-item.folder:hover .header-nav-folder-content,
+    .header-nav-item.folder:focus-within .header-nav-folder-content {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .header-nav-folder-content a {
+      font-size: 0.92rem;
+      font-weight: 300;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 0.2rem 0;
+      display: block;
+      white-space: nowrap;
+    }
+
+    .header-nav-folder-content a.active {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    /* Header CTA Button (Contact) */
+    .header-cta-btn {
+      font-family: var(--body-font);
+      font-weight: 400;
+      font-size: 0.95rem;
+      color: #ffffff;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      padding: 0.6rem 1.45rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.25s ease, color 0.25s ease;
+      cursor: pointer;
+    }
+
+    .header-cta-btn:hover {
+      background-color: #ffffff;
+      color: #000000;
+      opacity: 1;
+    }
+
+    /* Mobile Burger Button */
+    .burger-btn {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      width: 32px;
+      height: 24px;
+      position: relative;
+      z-index: 300;
+    }
+
+    .burger-btn span {
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #ffffff;
+      margin: 6px 0;
+      transition: transform 0.25s ease, opacity 0.25s ease;
+    }
+
+    /* ==========================================================================
+       HERO SECTION WITH GENERATIVE BOKEH + ROUNDED CURVE SECTION DIVIDER
+       Matches Squarespace Section 68ec327365f61a0fa4e77042
+       ========================================================================== */
+    .hero-section {
+      position: relative;
+      background-color: var(--sqsp-accent);
+      color: #ffffff;
+      padding-top: 2.5rem;
+      padding-bottom: calc(var(--divider-height) + 2.5rem);
+      overflow: hidden;
+      z-index: 2;
+    }
+
+    /* Rounded Bottom Section Divider via SVG Clip/Mask */
+    .hero-background-wrapper {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+    }
+
+    #bokeh-canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .hero-curve-divider {
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: var(--divider-height);
+      min-height: 36px;
+      max-height: 95px;
+      z-index: 3;
+      pointer-events: none;
+    }
+
+    .hero-curve-divider svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Pause / Play button in bottom-right of Hero Section (authentic Squarespace detail) */
+    .background-pause-button {
+      position: absolute;
+      right: 18px;
+      bottom: calc(14px + var(--divider-height));
+      z-index: 10;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      background: rgba(0, 0, 0, 0.35);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      backdrop-filter: blur(4px);
+      transition: background 0.2s ease, transform 0.2s ease;
+    }
+
+    .background-pause-button:hover {
+      background: rgba(0, 0, 0, 0.65);
+      transform: scale(1.06);
+    }
+
+    .background-pause-button svg {
+      width: 12px;
+      height: 12px;
+      fill: currentColor;
+    }
+
+    /* Fluid Engine 24-column Hero Grid */
+    .fe-hero-grid {
+      position: relative;
+      z-index: 4;
+      max-width: var(--sqs-site-max-width);
+      margin: 0 auto;
+      padding: 0 var(--sqs-site-gutter);
+      display: grid;
+      grid-template-columns: repeat(24, minmax(0, 1fr));
+      column-gap: 11px;
+      row-gap: 11px;
+      align-items: center;
+    }
+
+    .fe-hero-card-left {
+      grid-column: 4 / 12;
+      grid-row: 1 / 11;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fe-hero-card-right {
+      grid-column: 15 / 23;
+      grid-row: 1 / 11;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .fe-hero-button-slot {
+      grid-column: 19 / 25;
+      grid-row: 11 / 13;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+
+    /* Journal Issue / Cover Highlight Cards (matching the two screenshot blocks in reference) */
+    .journal-cover-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 370px;
+      aspect-ratio: 3 / 3.95;
+      border-radius: 3px;
+      padding: 1.55rem 1.5rem 1.35rem;
+      text-decoration: none;
+      color: #ffffff;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 44px rgba(0, 0, 0, 0.36), 0 2px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.3s ease;
+    }
+
+    .journal-cover-card:hover {
+      transform: translateY(-5px) scale(1.012);
+      box-shadow: 0 28px 58px rgba(0, 0, 0, 0.48);
+      opacity: 1;
+    }
+
+    /* Card 1: npj Biofilms and Microbiomes (Nature Portfolio style) */
+    .journal-cover-npj {
+      background: linear-gradient(155deg, #0d2238 0%, #133b5c 48%, #1d5f7a 100%);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    /* Card 2: FEMS Microbiology Ecology / Oxford Academic & Arthritis Pharmacomicrobiomics */
+    .journal-cover-fems {
+      background: linear-gradient(155deg, #1d242b 0%, #243b35 50%, #2e5a44 100%);
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .journal-cover-top {
+      position: relative;
+      z-index: 2;
+    }
+
+    .journal-publisher-tag {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.78);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+      padding-bottom: 0.45rem;
+      margin-bottom: 0.65rem;
+    }
+
+    .journal-masthead {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.25rem, 1.8vw, 1.55rem);
+      font-weight: 700;
+      line-height: 1.18;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      margin-bottom: 0.3rem;
+    }
+
+    .journal-masthead span.npj-prefix {
+      font-family: var(--heading-font);
+      font-weight: 700;
+      font-size: 0.9em;
+      color: #e63946;
+      background: #ffffff;
+      padding: 0.02rem 0.36rem;
+      border-radius: 2px;
+      margin-right: 0.3rem;
+      vertical-align: baseline;
+    }
+
+    .journal-issue-meta {
+      font-size: 0.73rem;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      letter-spacing: 0.03em;
+    }
+
+    .journal-cover-art {
+      position: relative;
+      z-index: 2;
+      my: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.6rem 0;
+    }
+
+    .journal-cover-art svg {
+      width: 100%;
+      max-height: 155px;
+      filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
+    }
+
+    .journal-cover-bottom {
+      position: relative;
+      z-index: 2;
+      background: rgba(10, 16, 24, 0.58);
+      backdrop-filter: blur(8px);
+      border-top: 2px solid rgba(255, 255, 255, 0.3);
+      padding: 0.75rem 0.85rem;
+      border-radius: 2px;
+    }
+
+    .journal-paper-badge {
+      display: inline-block;
+      font-size: 0.64rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      padding: 0.12rem 0.48rem;
+      border-radius: 2px;
+      background: rgba(255, 255, 255, 0.18);
+      color: #fff;
+      margin-bottom: 0.35rem;
+    }
+
+    .journal-paper-title {
+      font-size: 0.82rem;
+      font-weight: 500;
+      line-height: 1.35;
+      color: #ffffff;
+      margin-bottom: 0.3rem;
+    }
+
+    .journal-paper-authors {
+      font-size: 0.7rem;
+      font-weight: 300;
+      line-height: 1.3;
+      color: rgba(255, 255, 255, 0.84);
+    }
+
+    /* Primary Button in Hero (matching "Boolean Logic Statistics Tool" button style) */
+    .sqs-primary-hero-btn {
+      font-family: var(--body-font);
+      font-weight: 400;
+      font-size: 0.94rem;
+      line-height: 1.3;
+      color: #000000;
+      background-color: #ffffff;
+      border: 1px solid #ffffff;
+      padding: 0.85rem 1.55rem;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+      transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
+    }
+
+    .sqs-primary-hero-btn:hover {
+      background-color: #f0efed;
+      color: #000000;
+      transform: translateY(-2px);
+      opacity: 1;
+    }
+
+    /* ==========================================================================
+       MAIN CONTENT SECTION (White Theme, 24-col Fluid Engine Layout)
+       Matches Section 68ec325a81682851d1c77732
+       ========================================================================== */
+    .content-section {
+      position: relative;
+      background-color: var(--sqsp-white);
+      color: var(--sqsp-black);
+      padding: 4.5rem 0 6rem;
+    }
+
+    .fe-content-container {
+      max-width: var(--sqs-site-max-width);
+      margin: 0 auto;
+      padding: 0 var(--sqs-site-gutter);
+    }
+
+    .section-heading-block {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-heading-block h2 {
+      font-family: var(--heading-font);
+      font-weight: 500;
+      font-size: clamp(2.1rem, 3.5vw, 2.85rem);
+      line-height: 1.35em;
+      letter-spacing: 0em;
+      color: var(--sqsp-black);
+    }
+
+    .section-subheading {
+      font-weight: 300;
+      font-size: 0.98rem;
+      color: #4a4a4f;
+      margin-top: 0.4rem;
+    }
+
+    /* Ordered List of Publications (exact match to ginapartipilo.com/publications-1) */
+    .publications-list-wrapper {
+      max-width: 1380px;
+      margin: 0 auto;
+    }
+
+    ol.sqs-publications-list {
+      list-style-type: decimal;
+      padding-left: 1.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.35rem;
+    }
+
+    ol.sqs-publications-list li {
+      padding-left: 0.45rem;
+      font-weight: 300;
+      font-size: 1rem;
+      line-height: 1.8em;
+      color: var(--sqsp-black);
+    }
+
+    ol.sqs-publications-list li::marker {
+      font-weight: 300;
+      color: var(--sqsp-black);
+    }
+
+    ol.sqs-publications-list li p {
+      margin: 0;
+      white-space: normal;
+    }
+
+    .pub-doi-link {
+      color: var(--sqsp-black);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      word-break: break-word;
+    }
+
+    .pub-footnote {
+      margin-top: 2rem;
+      font-size: 0.96rem;
+      font-weight: 300;
+      color: var(--sqsp-black);
+    }
+
+    /* Filter / View Pills (Optional subtle interactive enhancement) */
+    .pub-filter-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .pub-filter-btn {
+      font-family: var(--body-font);
+      font-size: 0.84rem;
+      font-weight: 400;
+      padding: 0.38rem 1rem;
+      border: 1px solid #d4d3cf;
+      background: transparent;
+      color: #38383b;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .pub-filter-btn:hover,
+    .pub-filter-btn.active {
+      background: #38383b;
+      color: #ffffff;
+      border-color: #38383b;
+    }
+
+    /* ==========================================================================
+       OTHER TABBED PAGES (About Me, Academic Profiles, Research Interests,
+       Mentorship and Teaching, Contact) — Populated from Rahul Bodkhe's CV
+       ========================================================================== */
+    .page-view {
+      display: none;
+      animation: fadeInPage 0.28s ease;
+    }
+
+    .page-view.active {
+      display: block;
+    }
+
+    @keyframes fadeInPage {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Editorial layout blocks for other pages */
+    .cv-grid-2col {
+      display: grid;
+      grid-template-columns: 1fr 1.65fr;
+      gap: 3.5rem;
+      max-width: 1280px;
+      margin: 0 auto 3.5rem;
+      align-items: start;
+    }
+
+    .cv-card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.75rem;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .cv-surface-card {
+      background: var(--sqsp-light);
+      padding: 2rem 2.1rem;
+      border-left: 3px solid var(--sqsp-dark);
+    }
+
+    .cv-surface-card h3 {
+      font-family: var(--heading-font);
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.4;
+      margin-bottom: 0.65rem;
+      color: var(--sqsp-black);
+    }
+
+    .cv-surface-card .cv-meta {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: #55555a;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .cv-timeline-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.75rem;
+    }
+
+    .cv-timeline-item {
+      padding-bottom: 1.65rem;
+      border-bottom: 1px solid #e6e5e1;
+    }
+
+    .cv-timeline-item:last-child {
+      border-bottom: none;
+    }
+
+    .cv-timeline-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .cv-timeline-header h3 {
+      font-family: var(--heading-font);
+      font-weight: 500;
+      font-size: 1.15rem;
+    }
+
+    .cv-timeline-date {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #4a4a4f;
+    }
+
+    .cv-timeline-org {
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #38383b;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Profile Hero Card inside About Me & Research Profile Banner */
+    .about-profile-box {
+      background: var(--sqsp-light);
+      padding: 2.2rem;
+      border-top: 4px solid var(--sqsp-dark);
+    }
+
+    .about-portrait-img {
+      width: 100%;
+      max-width: 280px;
+      aspect-ratio: 4 / 4.3;
+      object-fit: cover;
+      object-position: center 15%;
+      border-radius: 4px;
+      margin-bottom: 1.35rem;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
+      display: block;
+    }
+
+    .research-profile-banner {
+      max-width: 1280px;
+      margin: 0 auto 3.5rem;
+      background: var(--sqsp-light);
+      border-left: 4px solid var(--sqsp-dark);
+      padding: 2rem 2.4rem;
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 2.2rem;
+      align-items: center;
+    }
+
+    .research-profile-banner img {
+      width: 150px;
+      height: 165px;
+      object-fit: cover;
+      object-position: center 15%;
+      border-radius: 4px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    @media (max-width: 680px) {
+      .research-profile-banner {
+        grid-template-columns: 1fr;
+        text-align: center;
+        justify-items: center;
+      }
+    }
+
+    .btn-outline-dark {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: var(--body-font);
+      font-weight: 400;
+      font-size: 0.92rem;
+      color: var(--sqsp-black);
+      border: 1px solid var(--sqsp-black);
+      padding: 0.65rem 1.35rem;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: all 0.2s ease;
+    }
+
+    .btn-outline-dark:hover {
+      background: var(--sqsp-black);
+      color: #ffffff;
+      opacity: 1;
+    }
+
+    /* ==========================================================================
+       FOOTER (Dark Theme `#38383b`, matching Section 68ec16d3545827376394565d)
+       ========================================================================== */
+    .site-footer {
+      background-color: var(--sqsp-dark);
+      color: #ffffff;
+      min-height: 20vh;
+      display: flex;
+      align-items: center;
+      padding: 3rem var(--sqs-site-gutter);
+    }
+
+    .footer-inner {
+      max-width: var(--sqs-site-max-width);
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .footer-top-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.92rem;
+    }
+
+    .footer-credit {
+      font-size: 0.92rem;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    /* ==========================================================================
+       RESPONSIVE BREAKPOINTS (Mobile <= 767px)
+       ========================================================================== */
+    @media (max-width: 900px) {
+      .fe-hero-grid {
+        grid-template-columns: 1fr;
+        gap: 1.75rem;
+      }
+
+      .fe-hero-card-left,
+      .fe-hero-card-right,
+      .fe-hero-button-slot {
+        grid-column: 1 / -1;
+        grid-row: auto;
+        justify-content: center;
+      }
+
+      .cv-grid-2col {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .site-header {
+        padding: 5vw var(--sqs-mobile-site-gutter);
+      }
+
+      .burger-btn {
+        display: block;
+      }
+
+      .header-nav-wrapper {
+        position: fixed;
+        inset: 0;
+        background-color: #000000;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.25s ease, visibility 0.25s ease;
+        z-index: 250;
+      }
+
+      .header-nav-wrapper.open {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .header-nav-list {
+        flex-direction: column;
+        gap: 1.25rem;
+        text-align: center;
+      }
+
+      .header-nav-link,
+      .header-nav-folder-title {
+        font-size: 1.35rem;
+      }
+
+      .header-nav-folder-content {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        align-items: center;
+        padding: 0.35rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ========================================================================
+       HEADER
+       ======================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="#publications-1" class="site-title" data-nav="publications-1">
+        <img src="profile.jpg" alt="Rahul Bodkhe, PhD" class="header-avatar" />
+        <span>Rahul Bodkhe, PhD</span>
+      </a>
+
+      <button class="burger-btn" id="burger-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="header-nav-wrapper" id="header-nav-wrapper">
+        <nav class="header-nav" aria-label="Primary Navigation">
+          <ul class="header-nav-list">
+            <li class="header-nav-item folder">
+              <button class="header-nav-folder-title" type="button" data-folder="about">
+                About
+                <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <div class="header-nav-folder-content">
+                <a href="#about-me" data-nav="about-me">About me</a>
+                <a href="#academic-profiles" data-nav="academic-profiles">Academic Profiles</a>
+              </div>
+            </li>
+            <li class="header-nav-item">
+              <a href="#publications-1" class="header-nav-link active" data-nav="publications-1">Publications</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#research-interests" class="header-nav-link" data-nav="research-interests">Research Interests</a>
+            </li>
+            <li class="header-nav-item">
+              <a href="#mentorship-and-teaching" class="header-nav-link" data-nav="mentorship-and-teaching">Mentorship and Teaching</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="#contact" class="header-cta-btn" data-nav="contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN PAGE CONTAINER
+       ======================================================================== -->
+  <main id="page" role="main">
+
+    <!-- ======================================================================
+         VIEW 1: PUBLICATIONS (/publications-1 — Default Active View)
+         ====================================================================== -->
+    <div id="view-publications-1" class="page-view active">
+      <!-- Top Bokeh Hero Section with 2 Featured Issue Cards + Primary Button + Rounded Curve Divider -->
+      <section class="hero-section" data-section-theme="black">
+        <div class="hero-background-wrapper">
+          <canvas id="bokeh-canvas"></canvas>
+        </div>
+
+        <div class="fe-hero-grid">
+          <!-- Left Featured Journal Card (grid-area: 1/5/11/12) -->
+          <div class="fe-hero-card-left">
+            <a class="journal-cover-card journal-cover-npj" href="https://doi.org/10.1038/s41522-026-00975-z" target="_blank" rel="noopener">
+              <div class="journal-cover-top">
+                <div class="journal-publisher-tag">
+                  <span>Nature Portfolio</span>
+                  <span>Vol. 12 • Art. 106 • 2026</span>
+                </div>
+                <div class="journal-masthead">
+                  <span class="npj-prefix">npj</span>Biofilms and Microbiomes
+                </div>
+                <div class="journal-issue-meta">Host–Microbiome Ecology &amp; Niche Construction</div>
+              </div>
+
+              <!-- Scientific Graphic Illustration: C. elegans shaping microbial community -->
+              <div class="journal-cover-art" aria-hidden="true">
+                <svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <radialGradient id="wormGlow" cx="50%" cy="50%" r="55%">
+                      <stop offset="0%" stop-color="#64dfdf" stop-opacity="0.45"/>
+                      <stop offset="100%" stop-color="#133b5c" stop-opacity="0"/>
+                    </radialGradient>
+                    <linearGradient id="wormBody" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#e0fbfc"/>
+                      <stop offset="50%" stop-color="#80ffdb"/>
+                      <stop offset="100%" stop-color="#48bfe3"/>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="140" cy="75" r="68" fill="url(#wormGlow)"/>
+                  <circle cx="140" cy="75" r="56" fill="none" stroke="rgba(255,255,255,0.16)" stroke-dasharray="3 4"/>
+                  <!-- Diverse microbial rods & cocci converging -->
+                  <g opacity="0.85">
+                    <rect x="46" y="34" width="16" height="6" rx="3" transform="rotate(-25 46 34)" fill="#ffb703"/>
+                    <rect x="210" y="42" width="18" height="6" rx="3" transform="rotate(30 210 42)" fill="#fb8500"/>
+                    <rect x="65" y="108" width="17" height="6" rx="3" transform="rotate(18 65 108)" fill="#8ecae6"/>
+                    <rect x="195" y="112" width="16" height="6" rx="3" transform="rotate(-22 195 112)" fill="#90be6d"/>
+                    <circle cx="88" cy="40" r="4.5" fill="#f94144"/>
+                    <circle cx="192" cy="36" r="4" fill="#90be6d"/>
+                    <circle cx="115" cy="118" r="4" fill="#ffb703"/>
+                    <circle cx="172" cy="105" r="4.5" fill="#4cc9f0"/>
+                    <circle cx="58" cy="74" r="3.5" fill="#f8961e"/>
+                    <circle cx="222" cy="80" r="4" fill="#48bfe3"/>
+                  </g>
+                  <!-- Sinusoidal C. elegans silhouette -->
+                  <path d="M 48 92 C 78 40, 118 40, 142 75 C 166 110, 204 110, 232 56"
+                        fill="none" stroke="url(#wormBody)" stroke-width="11" stroke-linecap="round"/>
+                  <path d="M 48 92 C 78 40, 118 40, 142 75 C 166 110, 204 110, 232 56"
+                        fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.65"/>
+                </svg>
+              </div>
+
+              <div class="journal-cover-bottom">
+                <span class="journal-paper-badge">Co-Corresponding Author</span>
+                <div class="journal-paper-title">
+                  <em>Caenorhabditis elegans</em> populations shape their microbial environment
+                </div>
+                <div class="journal-paper-authors">
+                  <strong>Bodkhe, R.*</strong>, Sankaran, K. &amp; Shapira, M.* (2026)
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Right Featured Journal Card (grid-area: 1/17/11/23) -->
+          <div class="fe-hero-card-right">
+            <a class="journal-cover-card journal-cover-fems" href="https://doi.org/10.1093/femsec/fiae149" target="_blank" rel="noopener">
+              <div class="journal-cover-top">
+                <div class="journal-publisher-tag">
+                  <span>Oxford Academic</span>
+                  <span>Vol. 100 • Issue 12 • 2024</span>
+                </div>
+                <div class="journal-masthead">
+                  FEMS Microbiology Ecology
+                </div>
+                <div class="journal-issue-meta">Intergenerational Microbiome Continuity</div>
+              </div>
+
+              <!-- Scientific Graphic Illustration: Dauer developmental arrest & microbiome continuity -->
+              <div class="journal-cover-art" aria-hidden="true">
+                <svg viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <radialGradient id="femsGlow" cx="50%" cy="50%" r="55%">
+                      <stop offset="0%" stop-color="#a3b18a" stop-opacity="0.45"/>
+                      <stop offset="100%" stop-color="#243b35" stop-opacity="0"/>
+                    </radialGradient>
+                  </defs>
+                  <circle cx="140" cy="75" r="66" fill="url(#femsGlow)"/>
+                  <!-- Generation cycle rings -->
+                  <ellipse cx="102" cy="75" rx="44" ry="44" fill="none" stroke="#a3b18a" stroke-width="2.2"/>
+                  <ellipse cx="178" cy="75" rx="44" ry="44" fill="none" stroke="#dad7cd" stroke-width="2" stroke-dasharray="5 4"/>
+                  <!-- Left ring: colonized adult state -->
+                  <circle cx="88" cy="62" r="4.5" fill="#e9c46a"/>
+                  <circle cx="108" cy="56" r="4" fill="#f4a261"/>
+                  <circle cx="96" cy="84" r="4.5" fill="#2a9d8f"/>
+                  <circle cx="114" cy="88" r="3.8" fill="#e76f51"/>
+                  <rect x="76" y="72" width="13" height="5" rx="2.5" fill="#8ab17d"/>
+                  <!-- Transition barrier (dauer bottleneck) -->
+                  <line x1="140" y1="30" x2="140" y2="120" stroke="#e76f51" stroke-width="2" stroke-dasharray="3 3"/>
+                  <!-- Right ring: dauer state cleared of bacteria -->
+                  <path d="M 160 85 Q 178 52 198 78" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+                  <text x="102" y="134" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-size="9" font-family="Poppins, sans-serif">Gen N (Colonized)</text>
+                  <text x="180" y="134" text-anchor="middle" fill="rgba(255,255,255,0.75)" font-size="9" font-family="Poppins, sans-serif">Dauer Bottleneck</text>
+                </svg>
+              </div>
+
+              <div class="journal-cover-bottom">
+                <span class="journal-paper-badge">Co-Corresponding Author</span>
+                <div class="journal-paper-title">
+                  Emergence of dauer larvae in <em>C. elegans</em> disrupts continuity of host-microbiome interactions
+                </div>
+                <div class="journal-paper-authors">
+                  <strong>Bodkhe, R.*</strong>, Trang, K., Hammond, S., Jung, D. K. &amp; Shapira, M.* (2024)
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Hero Bottom-Right Button Slot (grid-area: 12/22/14/26) -->
+          <div class="fe-hero-button-slot">
+            <a class="sqs-primary-hero-btn" href="https://scholar.google.com/citations?user=gTgv6osAAAAJ&hl=en" target="_blank" rel="noopener">
+              Google Scholar Profile
+            </a>
+          </div>
+        </div>
+
+        <!-- Pause/Play Button for Generative Bokeh Background -->
+        <button class="background-pause-button" id="bokeh-toggle-btn" type="button" aria-label="Pause background animation" title="Pause/Play background animation">
+          <svg id="bokeh-pause-icon" viewBox="0 0 12 12">
+            <rect x="2" y="1.5" width="3" height="9" rx="0.5"></rect>
+            <rect x="7" y="1.5" width="3" height="9" rx="0.5"></rect>
+          </svg>
+          <svg id="bokeh-play-icon" viewBox="0 0 12 12" style="display:none;">
+            <polygon points="2.5,1.5 10.5,6 2.5,10.5"></polygon>
+          </svg>
+        </button>
+
+        <!-- Rounded Curved Divider (6vw height, matching Squarespace 'rounded' divider) -->
+        <div class="hero-curve-divider" aria-hidden="true">
+          <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path d="M0,0 Q720,100 1440,0 L1440,100 L0,100 Z" fill="#ffffff"></path>
+          </svg>
+        </div>
+      </section>
+
+      <!-- Main Publications Numbered List Section -->
+      <section class="content-section">
+        <div class="fe-content-container">
+          <div class="section-heading-block">
+            <h2>Publications</h2>
+          </div>
+
+          <div class="pub-filter-bar" role="tablist" aria-label="Filter publications">
+            <button class="pub-filter-btn active" data-filter="all" type="button">All Publications (11)</button>
+            <button class="pub-filter-btn" data-filter="first" type="button">First / Co-Corresponding Author (8)</button>
+            <button class="pub-filter-btn" data-filter="autoimmune" type="button">Autoimmunity, Celiac &amp; Drug Response (6)</button>
+            <button class="pub-filter-btn" data-filter="celegans" type="button">C. elegans Microbiome Ecology (5)</button>
+          </div>
+
+          <div class="publications-list-wrapper">
+            <ol class="sqs-publications-list" id="publications-ol">
+              <!-- 1 -->
+              <li data-tags="first celegans">
+                <p>
+                  <strong>Bodkhe, R.*</strong>; Sankaran, K.; Shapira, M.* <em>Caenorhabditis elegans</em> populations shape their microbial environment. <strong>2026</strong>. <em>npj Biofilms and Microbiomes</em>, 12, 106. <a class="pub-doi-link" href="https://doi.org/10.1038/s41522-026-00975-z" target="_blank" rel="noopener">10.1038/s41522-026-00975-z</a>. <strong>Co-corresponding author.</strong>
+                </p>
+              </li>
+
+              <!-- 2 -->
+              <li data-tags="first autoimmune">
+                <p>
+                  <strong>Bodkhe, R.</strong>; Blank, R. B.; Trepka, K. R.; Orellana, D. A.; Scher, J. U.; Turnbaugh, P. J.; Nayak, R. R.* Multi-cohort Analysis Reveals Microbiome Signatures Associated with Drug Response in New-Onset Rheumatoid Arthritis. <strong>2026</strong>. <em>bioRxiv</em>, 2026.03.30.715090. <a class="pub-doi-link" href="https://doi.org/10.64898/2026.03.30.715090" target="_blank" rel="noopener">10.64898/2026.03.30.715090</a>. <strong>Under revision at <em>Arthritis &amp; Rheumatology</em>.</strong>
+                </p>
+              </li>
+
+              <!-- 3 -->
+              <li data-tags="first celegans">
+                <p>
+                  <strong>Bodkhe, R.*</strong>; Choi, R.; Shapira, M.* Environmental microbial extracts for longitudinal studies of gut microbiome assembly and maintenance. <strong>2026</strong>. <em>bioRxiv</em>, 2026.06.12.732002. <a class="pub-doi-link" href="https://doi.org/10.64898/2026.06.12.732002" target="_blank" rel="noopener">10.64898/2026.06.12.732002</a>. <strong>Under revision at <em>ISME Communications</em>; Co-corresponding author.</strong>
+                </p>
+              </li>
+
+              <!-- 4 -->
+              <li data-tags="autoimmune">
+                <p>
+                  Tharmalingam, N.; <strong>Bodkhe, R.</strong>; Arulsamy, K. S.; Lu, S.; Balakrishnan, B.; Mylonakis, E.; Munot, Y. S.* Aztreonam, Disulfiram, and De Novo Hybrid Analogs for the Treatment of <em>Helicobacter pylori</em> Infection. <strong>2026</strong>. <em>Nature Communications</em> (manuscript under revision).
+                </p>
+              </li>
+
+              <!-- 5 -->
+              <li data-tags="celegans">
+                <p>
+                  Choi, R.; <strong>Bodkhe, R.</strong>; Pees, B.; Kim, D.; Berg, M.; Monnin, D.; Cho, J.; Narayan, V.; Deller, E.; Savage-Dunn, C.; Shapira, M.* An <em>Enterobacteriaceae</em> bloom in aging animals is restrained by the gut microbiome. <em>Aging Biology</em>. <strong>2024</strong>, 2, 20240024. <a class="pub-doi-link" href="https://doi.org/10.59368/agingbio.20240024" target="_blank" rel="noopener">10.59368/agingbio.20240024</a>.
+                </p>
+              </li>
+
+              <!-- 6 -->
+              <li data-tags="first celegans">
+                <p>
+                  <strong>Bodkhe, R.*</strong>; Trang, K.; Hammond, S.; Jung, D. K.; Shapira, M.* Emergence of dauer larvae in <em>Caenorhabditis elegans</em> disrupts continuity of host-microbiome interactions. <em>FEMS Microbiology Ecology</em>. <strong>2024</strong>, 100(12), fiae149. <a class="pub-doi-link" href="https://doi.org/10.1093/femsec/fiae149" target="_blank" rel="noopener">10.1093/femsec/fiae149</a>. <strong>Co-corresponding author; Undergraduate mentees co-authored.</strong>
+                </p>
+              </li>
+
+              <!-- 7 -->
+              <li data-tags="celegans">
+                <p>
+                  Trang, K.; <strong>Bodkhe, R.</strong>; Shapira, M.* Compost Microcosms as Microbially Diverse, Natural-like Environments for Microbiome Research in <em>Caenorhabditis elegans</em>. <em>J. Vis. Exp. (JoVE)</em>. <strong>2022</strong>, (187), e64393. <a class="pub-doi-link" href="https://doi.org/10.3791/64393" target="_blank" rel="noopener">10.3791/64393</a>.
+                </p>
+              </li>
+
+              <!-- 8 -->
+              <li data-tags="first autoimmune">
+                <p>
+                  <strong>Bodkhe, R.</strong>; Marietta, E. V.; Balakrishnan, B.; Luckey, D. H.; Horwath, I. E.; Shouche, Y. S.; Taneja, V.; Murray, J. A.* Human gut-derived commensal suppresses generation of T-cell response to gliadin in humanized mice by modulating gut microbiota. <em>Anaerobe</em>. <strong>2021</strong>, 68, 102237. <a class="pub-doi-link" href="https://doi.org/10.1016/j.anaerobe.2020.102237" target="_blank" rel="noopener">10.1016/j.anaerobe.2020.102237</a>.
+                </p>
+              </li>
+
+              <!-- 9 -->
+              <li data-tags="autoimmune">
+                <p>
+                  Balakrishnan, B.; Luckey, D.; <strong>Bodkhe, R.</strong>; Chen, J.; Marietta, E.; Jeraldo, P.; Murray, J.; Taneja, V.* <em>Prevotella histicola</em> Protects From Arthritis by Expansion of <em>Allobaculum</em> and Augmenting Butyrate Production in Humanized Mice. <em>Frontiers in Immunology</em>. <strong>2021</strong>, 12, 609644. <a class="pub-doi-link" href="https://doi.org/10.3389/fimmu.2021.609644" target="_blank" rel="noopener">10.3389/fimmu.2021.609644</a>.
+                </p>
+              </li>
+
+              <!-- 10 -->
+              <li data-tags="first autoimmune">
+                <p>
+                  <strong>Bodkhe, R.</strong>; Balakrishnan, B.; Taneja, V.* The role of microbiome in rheumatoid arthritis treatment. <em>Therapeutic Advances in Musculoskeletal Disease</em>. <strong>2019</strong>, 11, 1759720X19844632. <a class="pub-doi-link" href="https://doi.org/10.1177/1759720X19844632" target="_blank" rel="noopener">10.1177/1759720X19844632</a>.
+                </p>
+              </li>
+
+              <!-- 11 -->
+              <li data-tags="first autoimmune">
+                <p>
+                  <strong>Bodkhe, R.</strong>; Shetty, S. A.; Dhotre, D. P.; Verma, A. K.; Bhatia, K.; Mishra, A.; Kaur, G.; Pande, P.; Bangarusamy, D. K.; Santosh, B. P.; Perumal, R. C.; Ahuja, V.; Shouche, Y. S.; Makharia, G. K.* Comparison of Small Gut and Whole Gut Microbiota of First-Degree Relatives With Adult Celiac Disease Patients and Controls. <em>Frontiers in Microbiology</em>. <strong>2019</strong>, 10, 164. <a class="pub-doi-link" href="https://doi.org/10.3389/fmicb.2019.00164" target="_blank" rel="noopener">10.3389/fmicb.2019.00164</a>.
+                </p>
+              </li>
+            </ol>
+
+            <p class="pub-footnote">* Indicates corresponding / co-corresponding author.</p>
+          </div>
+
+          <!-- Selected Presentations & Conferences Section -->
+          <div class="section-heading-block" style="margin-top: 5rem; margin-bottom: 2rem;">
+            <h2 style="font-size: clamp(1.65rem, 2.5vw, 2.15rem);">Selected Presentations &amp; Conferences</h2>
+          </div>
+
+          <div class="publications-list-wrapper">
+            <ol class="sqs-publications-list">
+              <li>
+                <p>
+                  <strong>Bodkhe, R.</strong> (<strong>2025</strong>). Microbiome signatures in rheumatoid arthritis treatment: Personalizing methotrexate therapy. <em>Poster presentation at the Biomedical Sciences &amp; Metagenomics Retreat (BCMM)</em>, University of California, San Francisco (UCSF), CA, USA.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Bodkhe, R.</strong> (<strong>2023</strong>). Age-dependent associations between gut microbiota composition and host gene expression. <em>Lightning talk at the Bay Area Worm Meeting 2023</em>, University of California, Davis, CA, USA.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Bodkhe, R.</strong> (<strong>2020</strong>). Human gut-derived commensal induces tolerance to gluten in humanized mice. <em>Poster presentation at the 10th India Probiotic Symposium</em>, New Delhi, India. <strong>(Young Investigator Award)</strong>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Bodkhe, R.</strong> (<strong>2017</strong>). Microbial community structure and its variation in celiac disease and non-celiac disease subjects. <em>Oral presentation at the 17th International Celiac Disease Symposium</em>, New Delhi, India.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 2: ABOUT ME (/about-me)
+         ====================================================================== -->
+    <div id="view-about-me" class="page-view">
+      <section class="content-section">
+        <div class="fe-content-container">
+          <div class="section-heading-block">
+            <h2>About Me</h2>
+            <p class="section-subheading">Staff Research Associate III &amp; Microbiome Scientist • NCIRE / University of California, San Francisco</p>
+          </div>
+
+          <div class="cv-grid-2col">
+            <div class="about-profile-box">
+              <img src="profile.jpg" alt="Rahul Bodkhe, PhD" class="about-portrait-img" />
+              <h3 style="font-weight: 500; font-size: 1.35rem; margin-bottom: 0.25rem;">Rahul Bodkhe, Ph.D.</h3>
+              <p style="font-size: 0.92rem; color: #4a4a4f; margin-bottom: 1rem;">
+                NCIRE / Department of Medicine<br/>
+                University of California, San Francisco (UCSF)<br/>
+                San Francisco, CA, USA
+              </p>
+              <p style="font-size: 0.9rem; margin-bottom: 0.4rem;">
+                <strong>Email:</strong> <a href="mailto:rahul.bodkhe@ucsf.edu">rahul.bodkhe@ucsf.edu</a>
+              </p>
+              <p style="font-size: 0.9rem; margin-bottom: 0.4rem;">
+                <strong>Phone:</strong> +1-510-345-8174
+              </p>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.25rem;">
+                <a class="btn-outline-dark" href="https://scholar.google.com/citations?user=gTgv6osAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+              </div>
+            </div>
+
+            <div>
+              <h3 style="font-family: var(--heading-font); font-weight: 500; font-size: 1.4rem; margin-bottom: 1rem;">Professional Summary</h3>
+              <p style="margin-bottom: 1.25rem;">
+                Microbiome scientist and evolutionary ecologist with over a decade of research experience investigating host–microbe interactions across model organisms and clinical cohorts. My postdoctoral training bridges integrative biology and invertebrate genetics at <strong>UC Berkeley</strong> (<em>Caenorhabditis elegans</em> niche construction and aging) with immunology, translational pharmacology, and computational metagenomics at <strong>UCSF</strong> (mouse arthritis models, pharmacomicrobiomics, and functional genomics), complemented by a doctoral degree from <strong>NCCS Pune</strong> and a <strong>Fulbright-Nehru Fellowship at Mayo Clinic</strong>.
+              </p>
+              <p style="margin-bottom: 2rem;">
+                My research program investigates how hosts construct their microbial environments and how these microbial legacies are transmitted across generations to influence offspring fitness, development, and therapeutic drug response. Combining invertebrate genetic tractability, gnotobiotic mammalian models, and multi-cohort clinical metagenomics, I aim to establish an independent research group dissecting the ecological inheritance of host-constructed microbiomes and their translational consequences.
+              </p>
+
+              <h3 style="font-family: var(--heading-font); font-weight: 500; font-size: 1.4rem; margin-bottom: 1.25rem;">Education &amp; Research Training</h3>
+              <div class="cv-timeline-list">
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-header">
+                    <h3>Staff Research Associate III</h3>
+                    <span class="cv-timeline-date">Jun 2026 – Present</span>
+                  </div>
+                  <div class="cv-timeline-org">Northern California Institute for Research and Education (NCIRE) / UCSF • San Francisco, CA</div>
+                  <p>Laboratory of Dr. Renuka Nayak. Focus: Host–microbe–drug interactions in autoimmune disease, pharmacomicrobiomics, and gnotobiotic mouse models.</p>
+                </div>
+
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-header">
+                    <h3>Postdoctoral Scholar</h3>
+                    <span class="cv-timeline-date">Jun 2024 – May 2026</span>
+                  </div>
+                  <div class="cv-timeline-org">Department of Medicine, University of California, San Francisco (UCSF) • San Francisco, CA</div>
+                  <p>Laboratory of Dr. Renuka Nayak. Focus: Multi-cohort clinical metagenomics, methotrexate pharmacomicrobiomics, and <em>Bacteroides thetaiotaomicron</em> TnSeq functional genomics.</p>
+                </div>
+
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-header">
+                    <h3>Postdoctoral Scholar</h3>
+                    <span class="cv-timeline-date">Jun 2021 – May 2024</span>
+                  </div>
+                  <div class="cv-timeline-org">Department of Integrative Biology, University of California, Berkeley • Berkeley, CA</div>
+                  <p>Laboratory of Prof. Michael Shapira. Focus: <em>Caenorhabditis elegans</em> microbiome assembly, niche construction, dauer larvae, and host aging.</p>
+                </div>
+
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-header">
+                    <h3>Fulbright-Nehru Doctoral Research Fellow</h3>
+                    <span class="cv-timeline-date">Sep 2018 – May 2019</span>
+                  </div>
+                  <div class="cv-timeline-org">Department of Immunology, Mayo Clinic • Rochester, MN</div>
+                  <p>Laboratories of Dr. Joseph Murray and Prof. Veena Taneja. Focus: Gut microbiome in rheumatoid arthritis and celiac disease using humanized mouse models.</p>
+                </div>
+
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-header">
+                    <h3>Ph.D. in Biotechnology / Life Sciences</h3>
+                    <span class="cv-timeline-date">Aug 2015 – Apr 2021</span>
+                  </div>
+                  <div class="cv-timeline-org">National Centre for Cell Science (NCCS) • Pune, MH, India</div>
+                  <p>Laboratory of Prof. Yogesh S. Shouche. Thesis: Characterization of gut microbiome in celiac disease, non-celiac gluten sensitivity, and irritable bowel syndrome across clinical cohorts.</p>
+                </div>
+
+                <div class="cv-timeline-item">
+                  <div class="cv-timeline-header">
+                    <h3>M.Sc. in Biotechnology (First Class with Distinction)</h3>
+                    <span class="cv-timeline-date">Jun 2012 – Mar 2014</span>
+                  </div>
+                  <div class="cv-timeline-org">Dr. Babasaheb Ambedkar Marathwada University (BAMU) • Aurangabad, MH, India</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-heading-block" style="margin-top: 4rem; margin-bottom: 2rem;">
+            <h2 style="font-size: 2rem;">Honors, Fellowships &amp; Awards</h2>
+          </div>
+          <div class="cv-card-grid">
+            <div class="cv-surface-card">
+              <span class="cv-meta">2024–2025 &amp; 2025–2026 (Awarded Twice)</span>
+              <h3>NSF Bay Area RaMP Fellowship</h3>
+              <p>National Science Foundation (NSF) award supporting dedicated research mentorship of postbaccalaureate scholars across UCSF and UC Berkeley.</p>
+            </div>
+            <div class="cv-surface-card">
+              <span class="cv-meta">March 2020</span>
+              <h3>Young Investigator Award</h3>
+              <p>Awarded at the 10th India Probiotic Symposium, New Delhi, India, for research on human gut-derived commensals inducing gluten tolerance in humanized mice.</p>
+            </div>
+            <div class="cv-surface-card">
+              <span class="cv-meta">Sep 2018 – May 2019</span>
+              <h3>Fulbright-Nehru Doctoral &amp; Professional Research Fellowship</h3>
+              <p>Prestigious international fellowship awarded by USIEF / U.S. Department of State to conduct translational microbiome research at Mayo Clinic, Rochester, MN.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 3: ACADEMIC PROFILES & EDITORIAL SERVICE (/contact in GP nav)
+         ====================================================================== -->
+    <div id="view-academic-profiles" class="page-view">
+      <section class="content-section">
+        <div class="fe-content-container">
+          <div class="section-heading-block">
+            <h2>Academic Profiles &amp; Editorial Service</h2>
+            <p class="section-subheading">Scholarly indexes, editorial leadership, and international peer review record</p>
+          </div>
+
+          <div class="research-profile-banner">
+            <img src="profile.jpg" alt="Rahul Bodkhe, PhD" />
+            <div>
+              <h3 style="font-family: var(--heading-font); font-weight: 500; font-size: 1.4rem; margin-bottom: 0.25rem;">Rahul Bodkhe, Ph.D.</h3>
+              <p style="font-size: 0.95rem; font-weight: 500; color: #38383b; margin-bottom: 0.5rem;">
+                Staff Research Associate III • NCIRE / University of California, San Francisco (UCSF)
+              </p>
+              <p style="font-size: 0.94rem; color: #4a4a4f;">
+                Microbiome scientist and evolutionary ecologist investigating host-constructed microbial environments, intergenerational microbiome transmission, and pharmacomicrobiomics across <em>Caenorhabditis elegans</em>, gnotobiotic mouse models, and clinical cohorts.
+              </p>
+            </div>
+          </div>
+
+          <div class="cv-card-grid" style="margin-bottom: 4rem;">
+            <div class="cv-surface-card">
+              <span class="cv-meta">Citation &amp; Publication Index</span>
+              <h3>Google Scholar Profile</h3>
+              <p style="margin-bottom: 1rem;">Complete citation metrics, co-author network, and indexed peer-reviewed articles and preprints.</p>
+              <a class="btn-outline-dark" href="https://scholar.google.com/citations?user=gTgv6osAAAAJ&hl=en" target="_blank" rel="noopener">Open Google Scholar ↗</a>
+            </div>
+
+            <div class="cv-surface-card">
+              <span class="cv-meta">Editorial Leadership (2026–Present)</span>
+              <h3>Guest Editor, JoVE</h3>
+              <p style="margin-bottom: 1rem;">Lead Guest Editor for the <em>Journal of Visualized Experiments (JoVE)</em> Methods Collection: <strong>“Host-Microbiome Dynamics: From Sampling to Discovery”</strong>.</p>
+              <a class="btn-outline-dark" href="https://doi.org/10.3791/64393" target="_blank" rel="noopener">View JoVE Publication ↗</a>
+            </div>
+
+            <div class="cv-surface-card">
+              <span class="cv-meta">National Library of Medicine</span>
+              <h3>NCBI / PubMed</h3>
+              <p style="margin-bottom: 1rem;">Indexed biomedical and microbiome research articles in PubMed and PubMed Central (PMC).</p>
+              <a class="btn-outline-dark" href="https://pubmed.ncbi.nlm.nih.gov/?term=Bodkhe+R%5BAuthor%5D" target="_blank" rel="noopener">Open PubMed ↗</a>
+            </div>
+          </div>
+
+          <div class="section-heading-block" style="margin-bottom: 2rem;">
+            <h2 style="font-size: 2rem;">Ad-Hoc Peer Reviewer (18 Manuscripts Reviewed)</h2>
+            <p class="section-subheading">Active peer reviewer across 10 international journals in microbiology, ecology, and immunology</p>
+          </div>
+
+          <div class="cv-card-grid">
+            <div class="cv-surface-card">
+              <h3>Microbiology &amp; Microbial Ecology</h3>
+              <ul style="padding-left: 1.2rem; margin-top: 0.75rem;">
+                <li><em>Frontiers in Microbiology</em> (6 manuscripts)</li>
+                <li><em>BMC Microbiology</em> (3 manuscripts)</li>
+                <li><em>Applied and Environmental Microbiology</em> (2 manuscripts)</li>
+                <li><em>FEMS Microbiology Ecology</em> (1 manuscript)</li>
+                <li><em>MicrobiologyOpen</em> (1 manuscript)</li>
+              </ul>
+            </div>
+            <div class="cv-surface-card">
+              <h3>Systems Biology, Immunology &amp; General Science</h3>
+              <ul style="padding-left: 1.2rem; margin-top: 0.75rem;">
+                <li><em>mBio</em> (1 manuscript)</li>
+                <li><em>mSystems</em> (1 manuscript)</li>
+                <li><em>Frontiers in Immunology</em> (1 manuscript)</li>
+                <li><em>Frontiers in Cellular and Infection Microbiology</em> (1 manuscript)</li>
+                <li><em>PeerJ</em> (1 manuscript)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 4: RESEARCH INTERESTS (/research-interests)
+         ====================================================================== -->
+    <div id="view-research-interests" class="page-view">
+      <section class="content-section">
+        <div class="fe-content-container">
+          <div class="section-heading-block">
+            <h2>Research Interests</h2>
+            <p class="section-subheading">Dissecting how hosts construct their microbial environments and how microbial legacies shape health, evolution, and drug response</p>
+          </div>
+
+          <div class="research-profile-banner">
+            <img src="profile.jpg" alt="Rahul Bodkhe, PhD" />
+            <div>
+              <h3 style="font-family: var(--heading-font); font-weight: 500; font-size: 1.4rem; margin-bottom: 0.25rem;">Rahul Bodkhe, Ph.D. — Research Program</h3>
+              <p style="font-size: 0.94rem; color: #4a4a4f;">
+                Combining invertebrate genetic tractability (<em>Caenorhabditis elegans</em>), gnotobiotic mammalian models of autoimmunity, and multi-cohort clinical metagenomics to dissect the ecological inheritance of host-constructed microbiomes and their translational consequences for drug response.
+              </p>
+            </div>
+          </div>
+
+          <div class="cv-card-grid" style="margin-bottom: 4.5rem;">
+            <div class="cv-surface-card">
+              <span class="cv-meta">Pillar I • Evolutionary Ecology</span>
+              <h3>Ecological Inheritance &amp; Niche Construction</h3>
+              <p>
+                Elucidating the behavioral and genetic drivers of host-constructed microbial environments, and evaluating how persistent microbial legacies alter community assembly and offspring life-history traits across generations in <em>Caenorhabditis elegans</em>.
+              </p>
+            </div>
+
+            <div class="cv-surface-card">
+              <span class="cv-meta">Pillar II • Mammalian Models</span>
+              <h3>Intergenerational Microbiome Transmission in Mammals</h3>
+              <p>
+                Delineating maternal vs. environmentally mediated transmission routes (bedding, feces, nesting) of host-shaped microbial communities and determining their causal influence on inflammatory arthritis progression and methotrexate therapy response.
+              </p>
+            </div>
+
+            <div class="cv-surface-card">
+              <span class="cv-meta">Pillar III • Translational Metagenomics</span>
+              <h3>Pharmacomicrobiomics &amp; Functional Metagenomics</h3>
+              <p>
+                Multi-cohort metagenomic and resistome profiling to discover predictive biomarkers of treatment response in autoimmune disease, and identifying bacterial functional genes targeted by drugs using high-throughput functional genomics (TnSeq).
+              </p>
+            </div>
+          </div>
+
+          <div class="section-heading-block" style="margin-bottom: 2rem;">
+            <h2 style="font-size: 2rem;">Core Technical Expertise</h2>
+          </div>
+
+          <div class="cv-card-grid">
+            <div class="cv-surface-card">
+              <h3>Invertebrate Genetics &amp; Microbial Ecology</h3>
+              <p><em>C. elegans</em> culture, colonization kinetics, boom-to-bust population dynamics, defined gnotobiotic communities (CeMbio), behavioral and developmental mutants (<em>eat-2</em>, <em>aex-1</em>, <em>daf-22</em>), and Compost Microbial Extract (CME) preparation.</p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Mammalian Immunology &amp; In Vivo Models</h3>
+              <p>Zymosan-induced SKG arthritis and humanized mouse models, gnotobiotic colonizations, reciprocal bedding transfers, cross-fostering, fecal microbiota transplantation (FMT), antibiotic-mediated depletion, clinical arthritis scoring, and T-cell assays.</p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Genomics Infrastructure &amp; Wet-Lab NGS</h3>
+              <p>End-to-end wet-lab sequencing infrastructure establishment, low-input DNA extraction protocols, shotgun metagenomic and 16S rRNA amplicon library preparation, <em>Bacteroides thetaiotaomicron</em> TnSeq functional screening, and anaerobic bacterial isolation.</p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Bioinformatics &amp; Computational Metagenomics</h3>
+              <p>Full pipeline development and management for shotgun metagenomics (taxonomic profiling, functional annotation, resistome quantification), 16S amplicon analysis, statistical modeling in R (linear mixed-effects models, compositionally aware multivariate statistics), and HPC computing.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 5: MENTORSHIP AND TEACHING (/mentorship-and-teaching-1)
+         ====================================================================== -->
+    <div id="view-mentorship-and-teaching" class="page-view">
+      <section class="content-section">
+        <div class="fe-content-container">
+          <div class="section-heading-block">
+            <h2>Mentorship and Teaching</h2>
+            <p class="section-subheading">Curriculum development, faculty instruction, and dedicated mentorship of 10 scholars across UCSF, UC Berkeley, and NCCS Pune</p>
+          </div>
+
+          <div class="cv-card-grid" style="margin-bottom: 4.5rem;">
+            <div class="cv-surface-card">
+              <span class="cv-meta">2025 • UCSF, UC Berkeley &amp; LBNL</span>
+              <h3>Module Instructor, NSF Bay Area RaMP in Microbiome Sciences</h3>
+              <p>Developed and delivered cohort-wide pedagogical training modules for postbaccalaureate scholars from UCSF, UC Berkeley, and Lawrence Berkeley National Laboratory, covering metabolomics, invertebrate model organisms, and rigorous experimental design.</p>
+            </div>
+
+            <div class="cv-surface-card">
+              <span class="cv-meta">2024 • Scienspur</span>
+              <h3>Course Developer &amp; Instructor, Single-Cell Genomics</h3>
+              <p>Co-designed the formal syllabus and delivered lectures and hands-on workshops on single-cell RNA sequencing data processing, quality control, dimensional reduction, and downstream analysis for a science-education non-profit.</p>
+            </div>
+
+            <div class="cv-surface-card">
+              <span class="cv-meta">2014–2015 • BAMU, Aurangabad</span>
+              <h3>Assistant Professor (Full-Time Faculty)</h3>
+              <p>Delivered full curriculum lectures and designed laboratory practicals for undergraduate and postgraduate courses in Biotechnology, Genomics, and Enzymology at MGM's Institute of Biosciences and Technology.</p>
+            </div>
+          </div>
+
+          <div class="section-heading-block" style="margin-bottom: 2rem;">
+            <h2 style="font-size: 2rem;">Research Mentorship Record</h2>
+            <p class="section-subheading">Trained ten postbaccalaureate, graduate, and undergraduate researchers</p>
+          </div>
+
+          <div class="publications-list-wrapper">
+            <ol class="sqs-publications-list">
+              <li>
+                <p><strong>Mehreen Khan</strong> (Postbaccalaureate Scholar, NSF Bay Area RaMP, UCSF / NCIRE, <strong>2025–present</strong>): Mentoring in anaerobic culturing, sequencing library prep, and reproducible statistical modeling in R; guided research symposium presentation.</p>
+              </li>
+              <li>
+                <p><strong>Alex Gonzales</strong> (Postbaccalaureate Scholar, NSF Bay Area RaMP, UCSF / NCIRE, <strong>2024–2025</strong>): Trained in anaerobic microbiology, NGS protocols, and experimental data presentation.</p>
+              </li>
+              <li>
+                <p><strong>Sabrina Hammond</strong> (Undergraduate Researcher, UC Berkeley, <strong>2023–2024</strong>): Trained in <em>C. elegans</em> host-microbiome colonization experiments. <strong>Co-author on Bodkhe et al., <em>FEMS Microbiology Ecology</em> (2024).</strong></p>
+              </li>
+              <li>
+                <p><strong>Da Kyung Jung</strong> (Undergraduate Researcher, UC Berkeley, <strong>2023–2024</strong>): Trained in <em>C. elegans</em> culturing, CFU quantification, and dauer assays. <strong>Co-author on Bodkhe et al., <em>FEMS Microbiology Ecology</em> (2024).</strong></p>
+              </li>
+              <li>
+                <p><strong>Andre Dumont</strong> (Undergraduate Researcher, UC Berkeley, <strong>2022</strong>): Supervised daily laboratory training in <em>C. elegans</em> host-microbiome interactions.</p>
+              </li>
+              <li>
+                <p><strong>Rachna Dubey</strong> (Master's Dissertation Student, NCCS Pune, <strong>2020</strong>): Supervised experimental workflow and human gut bacterial isolation progress reports.</p>
+              </li>
+              <li>
+                <p><strong>Nimisha Narayanan</strong> (Bachelor's Thesis Student, NCCS Pune, <strong>2018</strong>): Thesis: <em>“Isolation, identification and characterisation of gluten-degrading bacteria from sewage samples.”</em> Supervised thesis from conception to final defense.</p>
+              </li>
+              <li>
+                <p><strong>Jai Gupta</strong> (Bachelor's Thesis Student, NCCS Pune, <strong>2018</strong>): Supervised MALDI-TOF MS profiling and 16S rRNA gene-based bacterial identification.</p>
+              </li>
+              <li>
+                <p><strong>Srujanika Rajalaxmi</strong> (Bachelor's Thesis Student, NCCS Pune, <strong>2018</strong>): Supervised bacterial screening for gluten-degrading enzymatic activity.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ======================================================================
+         VIEW 6: CONTACT & REFERENCES (/contact-2)
+         ====================================================================== -->
+    <div id="view-contact" class="page-view">
+      <section class="content-section">
+        <div class="fe-content-container">
+          <div class="section-heading-block">
+            <h2>Contact</h2>
+            <p class="section-subheading">Get in touch regarding research collaborations, speaking invitations, or academic inquiries</p>
+          </div>
+
+          <div class="cv-card-grid" style="margin-bottom: 4.5rem;">
+            <div class="cv-surface-card">
+              <span class="cv-meta">Primary Institutional Email</span>
+              <h3>Email</h3>
+              <p><a href="mailto:rahul.bodkhe@ucsf.edu">rahul.bodkhe@ucsf.edu</a></p>
+            </div>
+            <div class="cv-surface-card">
+              <span class="cv-meta">Direct Telephone</span>
+              <h3>Phone</h3>
+              <p><a href="tel:+15103458174">+1 (510) 345-8174</a></p>
+            </div>
+            <div class="cv-surface-card">
+              <span class="cv-meta">Institution &amp; Location</span>
+              <h3>Affiliation</h3>
+              <p>NCIRE / Division of Rheumatology, Department of Medicine<br/>University of California, San Francisco, CA, USA</p>
+            </div>
+          </div>
+
+          <div class="section-heading-block" style="margin-bottom: 2rem;">
+            <h2 style="font-size: 2rem;">Professional References</h2>
+          </div>
+
+          <div class="cv-card-grid">
+            <div class="cv-surface-card">
+              <h3>Dr. Renuka R. Nayak, MD, Ph.D.</h3>
+              <span class="cv-meta">Current Supervisor &amp; Postdoctoral Advisor (2024–present)</span>
+              <p>Associate Professor of Medicine, Division of Rheumatology<br/>University of California, San Francisco / NCIRE<br/><a href="mailto:renuka.nayak@ucsf.edu">renuka.nayak@ucsf.edu</a></p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Prof. Michael Shapira, Ph.D.</h3>
+              <span class="cv-meta">Postdoctoral Advisor (2021–2024)</span>
+              <p>Professor, Department of Integrative Biology<br/>University of California, Berkeley<br/><a href="mailto:mshapira@berkeley.edu">mshapira@berkeley.edu</a></p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Prof. Yogesh S. Shouche, Ph.D.</h3>
+              <span class="cv-meta">Ph.D. Advisor (2015–2021)</span>
+              <p>Scientist Emeritus, SKAN Research Trust, Bengaluru<br/>(Formerly Scientist G &amp; Head, NCCS Pune)<br/><a href="mailto:yogesh.shouche@gmail.com">yogesh.shouche@gmail.com</a></p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Prof. Veena Taneja, Ph.D.</h3>
+              <span class="cv-meta">Fulbright Fellowship Host Co-Advisor (2018–2019)</span>
+              <p>Professor, Department of Immunology<br/>Mayo Clinic, Rochester, MN, USA<br/><a href="mailto:taneja.veena@mayo.edu">taneja.veena@mayo.edu</a></p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Prof. Peter J. Turnbaugh, Ph.D.</h3>
+              <span class="cv-meta">Faculty Mentor, UCSF ImmunoX Program (2024–present)</span>
+              <p>Professor, Department of Microbiology and Immunology<br/>University of California, San Francisco (UCSF)<br/><a href="mailto:peter.turnbaugh@ucsf.edu">peter.turnbaugh@ucsf.edu</a></p>
+            </div>
+
+            <div class="cv-surface-card">
+              <h3>Prof. Kris Sankaran, Ph.D.</h3>
+              <span class="cv-meta">Collaborator &amp; Co-Author (npj Biofilms and Microbiomes, 2026)</span>
+              <p>Assistant Professor, Department of Statistics<br/>University of Wisconsin–Madison<br/><a href="mailto:ksankaran@wisc.edu">ksankaran@wisc.edu</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- ========================================================================
+       FOOTER (Matches Dark Section 68ec16d3545827376394565d)
+       ======================================================================== -->
+  <footer class="site-footer" data-section-theme="dark">
+    <div class="footer-inner">
+      <div class="footer-top-row">
+        <div class="footer-credit">
+          <strong>Rahul Bodkhe, PhD</strong> &mdash; Staff Research Associate III, NCIRE / University of California, San Francisco
+        </div>
+        <div class="footer-links">
+          <a href="mailto:rahul.bodkhe@ucsf.edu">rahul.bodkhe@ucsf.edu</a>
+          <a href="https://scholar.google.com/citations?user=gTgv6osAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       INTERACTIVE SCRIPTS:
+       1. Squarespace-style Generative Bokeh Canvas Animation + Pause/Play
+       2. Multi-page Navigation Router (Publications default + CV sections)
+       3. Publication Category Filter
+       ======================================================================== -->
+  <script>
+    // 1. Generative Bokeh Background (modeled on Squarespace BackgroundBokeh seed=44)
+    (function initBokehCanvas() {
+      const canvas = document.getElementById('bokeh-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let animationFrameId = null;
+      let isPaused = false;
+
+      function resize() {
+        const rect = canvas.parentElement.getBoundingClientRect();
+        canvas.width = rect.width * window.devicePixelRatio;
+        canvas.height = rect.height * window.devicePixelRatio;
+        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+      }
+
+      window.addEventListener('resize', resize);
+      resize();
+
+      const orbs = [
+        { x: 0.22, y: 0.35, r: 260, vx: 0.00025, vy: 0.00018, color: 'rgba(56, 56, 59, 0.55)' },
+        { x: 0.76, y: 0.30, r: 310, vx: -0.0002, vy: 0.00022, color: 'rgba(247, 247, 247, 0.28)' },
+        { x: 0.50, y: 0.68, r: 290, vx: 0.00018, vy: -0.0002, color: 'rgba(56, 56, 59, 0.45)' },
+        { x: 0.15, y: 0.78, r: 210, vx: -0.00015, vy: -0.00015, color: 'rgba(255, 255, 255, 0.22)' },
+        { x: 0.85, y: 0.72, r: 240, vx: 0.00022, vy: -0.00018, color: 'rgba(40, 40, 44, 0.50)' }
+      ];
+
+      function render() {
+        const w = canvas.parentElement.clientWidth;
+        const h = canvas.parentElement.clientHeight;
+
+        // Base warm stone/taupe gradient matching sitePaletteColor 'accent' (#a8a59e) & 'darkAccent' (#38383b)
+        const baseGrad = ctx.createLinearGradient(0, 0, w, h);
+        baseGrad.addColorStop(0, '#5a5854');
+        baseGrad.addColorStop(0.5, '#8c8982');
+        baseGrad.addColorStop(1, '#38383b');
+        ctx.fillStyle = baseGrad;
+        ctx.fillRect(0, 0, w, h);
+
+        orbs.forEach(orb => {
+          if (!isPaused) {
+            orb.x += orb.vx;
+            orb.y += orb.vy;
+            if (orb.x < 0.05 || orb.x > 0.95) orb.vx *= -1;
+            if (orb.y < 0.05 || orb.y > 0.95) orb.vy *= -1;
+          }
+          const cx = orb.x * w;
+          const cy = orb.y * h;
+          const grad = ctx.createRadialGradient(cx, cy, 10, cx, cy, orb.r);
+          grad.addColorStop(0, orb.color);
+          grad.addColorStop(1, 'rgba(168, 165, 158, 0)');
+          ctx.fillStyle = grad;
+          ctx.beginPath();
+          ctx.arc(cx, cy, orb.r, 0, Math.PI * 2);
+          ctx.fill();
+        });
+
+        animationFrameId = requestAnimationFrame(render);
+      }
+
+      render();
+
+      const toggleBtn = document.getElementById('bokeh-toggle-btn');
+      const pauseIcon = document.getElementById('bokeh-pause-icon');
+      const playIcon = document.getElementById('bokeh-play-icon');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          isPaused = !isPaused;
+          pauseIcon.style.display = isPaused ? 'none' : 'block';
+          playIcon.style.display = isPaused ? 'block' : 'none';
+          toggleBtn.setAttribute('aria-label', isPaused ? 'Play background animation' : 'Pause background animation');
+        });
+      }
+    })();
+
+    // 2. Navigation Router
+    (function initRouter() {
+      const views = {
+        'publications-1': document.getElementById('view-publications-1'),
+        'about-me': document.getElementById('view-about-me'),
+        'academic-profiles': document.getElementById('view-academic-profiles'),
+        'research-interests': document.getElementById('view-research-interests'),
+        'mentorship-and-teaching': document.getElementById('view-mentorship-and-teaching'),
+        'contact': document.getElementById('view-contact')
+      };
+
+      const titles = {
+        'publications-1': 'Publications — Rahul Bodkhe, PhD',
+        'about-me': 'About me — Rahul Bodkhe, PhD',
+        'academic-profiles': 'Academic Profiles — Rahul Bodkhe, PhD',
+        'research-interests': 'Research Interests — Rahul Bodkhe, PhD',
+        'mentorship-and-teaching': 'Mentorship and Teaching — Rahul Bodkhe, PhD',
+        'contact': 'Contact — Rahul Bodkhe, PhD'
+      };
+
+      const navWrapper = document.getElementById('header-nav-wrapper');
+      const burgerBtn = document.getElementById('burger-btn');
+
+      if (burgerBtn && navWrapper) {
+        burgerBtn.addEventListener('click', () => {
+          navWrapper.classList.toggle('open');
+        });
+      }
+
+      function switchView(viewKey) {
+        if (!views[viewKey]) viewKey = 'publications-1';
+        Object.keys(views).forEach(k => {
+          views[k].classList.toggle('active', k === viewKey);
+        });
+
+        document.querySelectorAll('[data-nav]').forEach(el => {
+          if (!el.classList.contains('site-title') && !el.classList.contains('header-cta-btn')) {
+            el.classList.toggle('active', el.getAttribute('data-nav') === viewKey);
+          }
+        });
+
+        const aboutBtn = document.querySelector('[data-folder="about"]');
+        if (aboutBtn) {
+          aboutBtn.classList.toggle('active', viewKey === 'about-me' || viewKey === 'academic-profiles');
+        }
+
+        document.title = titles[viewKey] || 'Rahul Bodkhe, PhD';
+        if (navWrapper) navWrapper.classList.remove('open');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+
+      document.querySelectorAll('[data-nav]').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = link.getAttribute('data-nav');
+          history.pushState(null, '', '#' + target);
+          switchView(target);
+        });
+      });
+
+      window.addEventListener('popstate', () => {
+        const hash = window.location.hash.replace('#', '');
+        switchView(hash || 'publications-1');
+      });
+
+      const initialHash = window.location.hash.replace('#', '');
+      if (initialHash && views[initialHash]) {
+        switchView(initialHash);
+      }
+    })();
+
+    // 3. Publication Filter Pills
+    (function initPubFilters() {
+      const buttons = document.querySelectorAll('.pub-filter-btn');
+      const items = document.querySelectorAll('#publications-ol li');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+          buttons.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+
+          items.forEach(li => {
+            const tags = (li.getAttribute('data-tags') || '').split(' ');
+            if (filter === 'all' || tags.includes(filter)) {
+              li.style.display = '';
+            } else {
+              li.style.display = 'none';
+            }
+          });
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
